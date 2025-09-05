@@ -1,0 +1,11 @@
+# Enforce Unix-style line endings for all text files
+* text=auto eol=lf
+
+# Treat specific file types as binary (no line ending conversions)
+*.jpg binary
+*.png binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.exe binary
